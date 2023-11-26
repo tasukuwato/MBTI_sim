@@ -1,0 +1,4 @@
+MongoDBのセットアップは終わったが、DB設計まではできていない状態？
+
+mbti_game下に「Dockerfile」が必要で、これがないとDocker-Compose upを実行した際に「failed to solve: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount1415555863/Dockerfile: no such file or directory」
+が返されるので、「Dockerfile」を追加してください。
