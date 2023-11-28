@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   //useStateフックを初期値:9で呼びだす
   //ここでの<number>はTypeScriptのジェネリックを使用しており、数値型宣言である
+  //いじょ；fがじあえgr↓いがえrほう；お；gらをふえwgr
   const [participantCount, setParticipantCount] = useState<number>(9);
 
   const renderIcons = () => {
